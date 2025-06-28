@@ -77,7 +77,7 @@ export function FloatingMusicPlayer() {
       if (audioRef.current) {
         safePlay()
       }
-    }, 1000) // Small delay to ensure audio is loaded
+    }, 10) // Small delay to ensure audio is loaded
 
     return () => clearTimeout(timer)
   }, [])
