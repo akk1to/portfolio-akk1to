@@ -72,15 +72,19 @@ export function FloatingMusicPlayer() {
   const currentSong = playlist[currentSongIndex]
 
   useEffect(() => {
-    // Auto-play when component mounts
-    const timer = setTimeout(() => {
-      if (audioRef.current) {
-        safePlay()
-      }
-    }, 10) // Small delay to ensure audio is loaded
+    const audio = audioRef.current
+    if (!audio) return
 
-    return () => clearTimeout(timer)
-  }, [])
+    // Force autoplay
+    audio.autoplay = true
+    audio.volume = volume
+    audio.play().catch(() => {
+      // If autoplay fails, try again after a short delay
+      setTimeout(() => {
+        audio.play().catch(() => {})
+      }, 1000)
+    })
+  }, [volume])
 
   useEffect(() => {
     const audio = audioRef.current

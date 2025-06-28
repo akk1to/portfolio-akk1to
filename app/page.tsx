@@ -319,7 +319,7 @@ export default function Portfolio() {
               title="YugiReborn (Private)"
               description="A project of recreating Yugioh Game online"
               tags={["HTML/JSS", "Web Game", "JavaScript", "Firebase"]}
-              image="https://upload.cdn.akk1to.is-a.dev/content/project3.png"
+              image="https://upload.cdn.akk1to.is-a.dev/content/project3.jpg"
               demoUrl="https://github.com/akk1to"
               repoUrl="https://github.com/akk1to"
             />
