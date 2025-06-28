@@ -44,7 +44,7 @@ const playlist: Song[] = [
     artist: "Mary Ade (ft. Qung Madi)",
     album: "VALORANT",
     duration: 318,
-    audioUrl: "https://upload.cdn.akk1to.is-a.dev/content/ego.m4a",
+    audioUrl: "https://upload.cdn.akk1to.is-a.dev/content/ego.mp3",
     albumArt: "https://upload.cdn.akk1to.is-a.dev/content/album3.jpg",
     youtubeUrl: "https://www.youtube.com/watch?v=MynXN5mcR9k",
   },
@@ -72,19 +72,15 @@ export function FloatingMusicPlayer() {
   const currentSong = playlist[currentSongIndex]
 
   useEffect(() => {
-    const audio = audioRef.current
-    if (!audio) return
+    // Auto-play when component mounts
+    const timer = setTimeout(() => {
+      if (audioRef.current) {
+        safePlay()
+      }
+    }, 10) // Small delay to ensure audio is loaded
 
-    // Force autoplay
-    audio.autoplay = true
-    audio.volume = volume
-    audio.play().catch(() => {
-      // If autoplay fails, try again after a short delay
-      setTimeout(() => {
-        audio.play().catch(() => {})
-      }, 1000)
-    })
-  }, [volume])
+    return () => clearTimeout(timer)
+  }, [])
 
   useEffect(() => {
     const audio = audioRef.current
