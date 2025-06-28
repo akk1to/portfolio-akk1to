@@ -172,7 +172,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="http://cdn.akk1to.tech:3000/u/OkSEcB.jpg"
+                  src="http://128.199.181.8:3000/u/OkSEcB.jpg"
                   alt="akk1to.dev"
                   className="w-full h-full object-cover"
                 />
@@ -270,7 +270,7 @@ export default function Portfolio() {
               title="AsakaCloud"
               description="Asaka Cloud is proud to be Vietnam's top Minecraft server rental service, offering high-quality and affordable online game server hosting solutions."
               tags={["Working as: Unofficial Active Supporter"]}
-              image="http://cdn.akk1to.tech:3000/u/ICrSDR.png"
+              image="http://128.199.181.8:3000/u/ICrSDR.png"
               webUrl="https://asakacloud.vn/"
               discordUrl="https://discord.gg/asakacloud"
             />
@@ -278,7 +278,7 @@ export default function Portfolio() {
               title="DreamMC Network"
               description="DreamMC Network is a Minecraft Community, where you can find friends to play togther in our Minecraft Server!"
               tags={["Working as: Owner of DreamMC Network"]}
-              image="http://cdn.akk1to.tech:3000/u/EIFFUx.png"
+              image="http://128.199.181.8:3000/u/EIFFUx.png"
               webUrl="https://dreammc.asia"
               discordUrl="https://discord.gg/dreammc"
             />
@@ -286,7 +286,7 @@ export default function Portfolio() {
               title="Hungg's Basement"
               description="HunggVN is a famous Minecraft Youtuber in Vietnam, usually make videoss about Minecraft Fact & more."
               tags={["Working as: Giveaway Staff"]}
-              image="http://cdn.akk1to.tech:3000/u/GJlM9P.jpg"
+              image="http://128.199.181.8:3000/u/GJlM9P.jpg"
               webUrl="https://hunggsmp.wiki.gg/vi/"
               discordUrl="https://discord.gg/hunggvn"
             />
@@ -311,7 +311,7 @@ export default function Portfolio() {
               title="BusinessManager"
               description="A all-in-one dashboard to manage your business."
               tags={["Business", "Database", "Dashboard", "NodeJS/NextJS"]}
-              image="http://cdn.akk1to.tech:3000/u/AhoByH.png"
+              image="http://128.199.181.8:3000/u/AhoByH.png"
               demoUrl="https://merryhome-dashboard-ui.vercel.app/"
               repoUrl="https://github.com/akk1to"
             />
@@ -319,7 +319,7 @@ export default function Portfolio() {
               title="YugiReborn (Private)"
               description="A project of recreating Yugioh Game online"
               tags={["HTML/JSS", "Web Game", "JavaScript", "Firebase"]}
-              image="http://cdn.akk1to.tech:3000/u/ne6p9V.jpg"
+              image="http://128.199.181.8:3000/u/ne6p9V.jpg"
               demoUrl="https://github.com/akk1to"
               repoUrl="https://github.com/akk1to"
             />

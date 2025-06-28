@@ -24,8 +24,8 @@ const playlist: Song[] = [
     artist: "Tùa ft. CM1X",
     album: "Tùa",
     duration: 356,
-    audioUrl: "http://cdn.akk1to.tech:3000/u/RyBmCO.m4a",
-    albumArt: "http://cdn.akk1to.tech:3000/u/bNipOh.jpg",
+    audioUrl: "http://128.199.181.8:3000/u/RyBmCO.m4a",
+    albumArt: "http://128.199.181.8:3000/u/bNipOh.jpg",
     youtubeUrl: "https://www.youtube.com/watch?v=WJ1Y9pZrNjA",
   },
   {
@@ -34,8 +34,8 @@ const playlist: Song[] = [
     artist: "Jujutsu Kaisen",
     album: "Eve MV",
     duration: 343,
-    audioUrl: "http://cdn.akk1to.tech:3000/u/XXw0ww.m4a",
-    albumArt: "http://cdn.akk1to.tech:3000/u/tuoJY7.jpg",
+    audioUrl: "http://128.199.181.8:3000/u/XXw0ww.m4a",
+    albumArt: "http://128.199.181.8:3000/u/tuoJY7.jpg",
     youtubeUrl: "https://www.youtube.com/watch?v=1tk1pqwrOys",
   },
   {
@@ -44,8 +44,8 @@ const playlist: Song[] = [
     artist: "Mary Ade (ft. Qung Madi)",
     album: "VALORANT",
     duration: 318,
-    audioUrl: "http://cdn.akk1to.tech:3000/u/Dbio2E.mp3",
-    albumArt: "http://cdn.akk1to.tech:3000/u/o2YNZc.jpg",
+    audioUrl: "http://128.199.181.8:3000/u/Dbio2E.mp3",
+    albumArt: "http://128.199.181.8:3000/u/o2YNZc.jpg",
     youtubeUrl: "https://www.youtube.com/watch?v=MynXN5mcR9k",
   },
 ]
