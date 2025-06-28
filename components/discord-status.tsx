@@ -115,7 +115,7 @@ export function DiscordStatus({ className = "" }: DiscordStatusProps) {
         <div className="flex items-center gap-3 mb-3">
           <div className="relative">
             <div className="w-8 h-8 rounded-full bg-discord-blurple flex items-center justify-center">
-              <img src={"http://cdn.akk1to.tech:3000/raw/OfQwQr.png"} />
+              <img src={"https://upload.cdn.akk1to.is-a.dev/content/discordimage.jpg"} />
             </div>
             <div
               className={`absolute -bottom-1 -right-1 w-3 h-3 rounded-full border-2 border-zinc-800 ${statusColors[discordData.status]} ${
