@@ -29,6 +29,7 @@ export function FloatingNav() {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Works", href: "#works" }, 
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
     { name: "Contact", href: "#contact" },
@@ -69,7 +70,7 @@ export function FloatingNav() {
           ) : (
             <div className="relative flex items-center gap-1">
               <Link href="/" className="font-bold text-lg mr-4">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-yellow-600">akk</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">akk</span>
                 <span className="text-white">1to</span>
               </Link>
               {navItems.map((item) => (

@@ -23,11 +23,11 @@ const experiences = [
     company: "AsakaCloud",
     period: "2025 - future",
     description:
-      "I'm currently an active unofficial supporter, with aspirations to become an official staff member",
+      "I'm currently a supporter & official staff of AsakaCloud, with aspirations to become an official staff member",
   },
   {
     title: "Making my own community",
-    company: "DreamMC Network",
+    company: "KingOra Network",
     period: "2025 - future",
     description: "I'm also channeling my passion into building my own Minecraft community, hoping to become a large Minecraft server network in the future.",
   },

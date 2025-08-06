@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { Play, Pause, SkipBack, SkipForward, Volume2, ExternalLink, Music, X, Minimize2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Slider } from "@/components/ui/slider"
+import { useMobile } from "@/hooks/use-mobile"
 
 interface Song {
   id: number
@@ -58,6 +59,7 @@ export function FloatingMusicPlayer() {
   const [isExpanded, setIsExpanded] = useState(false)
   const [isVisible, setIsVisible] = useState(true)
   const [isMinimized, setIsMinimized] = useState(false)
+  const isMobile = useMobile()
 
   const audioRef = useRef<HTMLAudioElement>(null)
 
@@ -153,7 +155,8 @@ export function FloatingMusicPlayer() {
   }
 
   if (!isVisible) return null
-
+  if (isMobile) return null
+  
   return (
     <>
       <audio ref={audioRef} />

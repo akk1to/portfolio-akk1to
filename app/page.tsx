@@ -65,7 +65,7 @@ export default function Portfolio() {
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
                 <span className="block text-white">Learning about</span>
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-yellow-600">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
                   The future of Internet
                 </span>
               </h1>
@@ -256,7 +256,7 @@ export default function Portfolio() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-32 relative">
+      <section id="works" className="py-32 relative">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
@@ -269,24 +269,24 @@ export default function Portfolio() {
             <WorkCard
               title="AsakaCloud"
               description="Asaka Cloud is proud to be Vietnam's top Minecraft server rental service, offering high-quality and affordable online game server hosting solutions."
-              tags={["Working as: Unofficial Active Supporter"]}
+              tags={["Working as: Official Staff"]}
               image="https://upload.cdn.akk1to.is-a.dev/content/work1.png"
               webUrl="https://asakacloud.vn/"
               discordUrl="https://discord.gg/asakacloud"
             />
             <WorkCard
-              title="DreamMC Network"
-              description="DreamMC Network is a Minecraft Community, where you can find friends to play togther in our Minecraft Server!"
-              tags={["Working as: Owner of DreamMC Network"]}
-              image="https://upload.cdn.akk1to.is-a.dev/content/work2.png"
-              webUrl="https://dreammc.asia"
-              discordUrl="https://discord.gg/dreammc"
+              title="KingOra Network"
+              description="KingOra Network is a Minecraft Community, where you can find friends to play togther in our Minecraft Server!"
+              tags={["Working as: Admin of DreamMC Network"]}
+              image="https://upload.cdn.akk1to.is-a.dev/content/kingora.png"
+              webUrl="https://kingora.net"
+              discordUrl="https://discord.gg/kingora"
             />
             <WorkCard
               title="Hungg's Basement"
               description="HunggVN is a famous Minecraft Youtuber in Vietnam, usually make videoss about Minecraft Fact & more."
               tags={["Working as: Giveaway Staff"]}
-              image="https://upload.cdn.akk1to.is-a.dev/content/work3.png"
+              image="https://upload.cdn.akk1to.is-a.dev/content/work3.jpg"
               webUrl="https://hunggsmp.wiki.gg/vi/"
               discordUrl="https://discord.gg/hunggvn"
             />
@@ -313,14 +313,6 @@ export default function Portfolio() {
               tags={["Business", "Database", "Dashboard", "NodeJS/NextJS"]}
               image="https://upload.cdn.akk1to.is-a.dev/content/project2.png"
               demoUrl="https://merryhome-dashboard-ui.vercel.app/"
-              repoUrl="https://github.com/akk1to"
-            />
-            <ProjectCard
-              title="YugiReborn (Private)"
-              description="A project of recreating Yugioh Game online"
-              tags={["HTML/JSS", "Web Game", "JavaScript", "Firebase"]}
-              image="https://upload.cdn.akk1to.is-a.dev/content/project3.jpg"
-              demoUrl="https://github.com/akk1to"
               repoUrl="https://github.com/akk1to"
             />
           </div>
