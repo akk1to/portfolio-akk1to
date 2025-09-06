@@ -25,7 +25,7 @@ export async function GET() {
           name: "Visual Studio Code",
           type: 0, // Playing
           details: "Working on akk1to's project",
-          state: "DreamMC Network",
+          state: "Zyndata Technologies Solution LTD.",
           timestamps: {
             start: Date.now() - 3600000, // 1 hour ago
           },
