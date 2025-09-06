@@ -277,7 +277,7 @@ export default function Portfolio() {
             <WorkCard
               title="KingOra Network"
               description="KingOra Network is a Minecraft Community, where you can find friends to play togther in our Minecraft Server!"
-              tags={["Working as: Admin of DreamMC Network"]}
+              tags={["Working as: Head Admin of KingOra Network"]}
               image="https://upload.cdn.akk1to.is-a.dev/content/kingora.png"
               webUrl="https://kingora.net"
               discordUrl="https://discord.gg/kingora"
