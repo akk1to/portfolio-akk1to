@@ -107,9 +107,9 @@ export function DiscordStatus({ className = "" }: DiscordStatusProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.8 }}
-      className={`relative overflow-hidden rounded-xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-4 transition-all duration-300 hover:border-purple-500/50 ${className}`}
+      className={`relative overflow-hidden rounded-xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-4 transition-all duration-300 hover:border-yellow-500/50 ${className}`}
     >
-      <div className="absolute -inset-1 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
+      <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/10 to-white-500/10 rounded-xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
 
       <div className="relative">
         <div className="flex items-center gap-3 mb-3">
@@ -132,7 +132,7 @@ export function DiscordStatus({ className = "" }: DiscordStatusProps) {
           </div>
 
           {isLoading && (
-            <div className="w-4 h-4 border-2 border-purple-500 border-t-transparent rounded-full animate-spin"></div>
+            <div className="w-4 h-4 border-2 border-yellow-500 border-t-transparent rounded-full animate-spin"></div>
           )}
         </div>
 

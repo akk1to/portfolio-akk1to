@@ -174,7 +174,7 @@ export function FloatingMusicPlayer() {
         transition={{ duration: 0.3, type: "spring", damping: 20 }}
       >
         <div className="relative overflow-hidden rounded-full bg-zinc-900/90 backdrop-blur-md border border-zinc-700/50 shadow-2xl">
-          <div className="absolute -inset-1 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur opacity-50"></div>
+          <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/20 to-white-500/20 rounded-full blur opacity-50"></div>
 
           <div className="relative">
             {isMinimized ? (
@@ -223,7 +223,7 @@ export function FloatingMusicPlayer() {
                       alt={currentSong.album}
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-yellow/20 to-transparent"></div>
                   </div>
                 </div>
 
@@ -263,7 +263,7 @@ export function FloatingMusicPlayer() {
                     variant="ghost"
                     size="icon"
                     onClick={togglePlay}
-                    className="text-white hover:bg-white/10 rounded-full w-12 h-12 bg-purple-500/20"
+                    className="text-white hover:bg-white/10 rounded-full w-12 h-12 bg-yellow-500/20"
                   >
                     {isPlaying ? <Pause className="h-6 w-6" /> : <Play className="h-6 w-6" />}
                   </Button>
@@ -308,7 +308,7 @@ export function FloatingMusicPlayer() {
                       onClick={() => setCurrentSongIndex(index)}
                       className={`w-full text-left p-2 rounded-lg transition-colors ${
                         index === currentSongIndex
-                          ? "bg-purple-500/20 text-white"
+                          ? "bg-yellow-500/20 text-white"
                           : "text-zinc-400 hover:bg-white/5 hover:text-white"
                       }`}
                     >

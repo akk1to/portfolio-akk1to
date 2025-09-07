@@ -24,13 +24,13 @@ export function ProfileCard({ name, jobTitle, location, avatar, joinedDate }: Pr
     >
       {/* Main Profile Card */}
       <div classname="space-y-6"></div>
-      <div className="relative overflow-hidden rounded-2xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-6 transition-all duration-300 hover:border-purple-500/50">
-        <div className="absolute -inset-1 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-2xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
+      <div className="relative overflow-hidden rounded-2xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-6 transition-all duration-300 hover:border-yellow-500/50">
+        <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/10 to-white-500/10 rounded-2xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
 
         <div className="relative flex items-start gap-4">
           {/* Avatar */}
           <div className="relative">
-            <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-purple-500/50">
+            <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-yellow-500/50">
               <img src={avatar || "/placeholder.svg"} alt={name} className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-green-500 border-2 border-zinc-800 flex items-center justify-center">
@@ -41,7 +41,7 @@ export function ProfileCard({ name, jobTitle, location, avatar, joinedDate }: Pr
           {/* Info */}
           <div className="flex-1 min-w-0">
             <h2 className="text-xl font-bold text-white mb-1">{name}</h2>
-            <p className="text-purple-400 font-medium mb-3 text-sm">{jobTitle}</p>
+            <p className="text-yellow-400 font-medium mb-3 text-sm">{jobTitle}</p>
 
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-xs text-zinc-400">
@@ -73,13 +73,13 @@ export function ProfileCard({ name, jobTitle, location, avatar, joinedDate }: Pr
       className="space-y-10 max-w-sm"
     >
       {/* Main Profile Card */}
-      <div className="relative overflow-hidden rounded-2xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-6 transition-all duration-300 hover:border-purple-500/50">
-        <div className="absolute -inset-1 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-2xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
+      <div className="relative overflow-hidden rounded-2xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-6 transition-all duration-300 hover:border-yellow-500/50">
+        <div className="absolute -inset-1 bg-gradient-to-r from-yellow-500/10 to-white-500/10 rounded-2xl blur opacity-25 hover:opacity-100 transition duration-1000 hover:duration-200"></div>
 
         <div className="relative flex items-start gap-4">
           {/* Avatar */}
           <div className="relative">
-            <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-purple-500/50">
+            <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-yellow-500/50">
               <img src={avatar || "/placeholder.svg"} alt={name} className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-green-500 border-2 border-zinc-800 flex items-center justify-center">
@@ -90,7 +90,7 @@ export function ProfileCard({ name, jobTitle, location, avatar, joinedDate }: Pr
           {/* Info */}
           <div className="flex-1 min-w-0">
             <h2 className="text-xl font-bold text-white mb-1">{name}</h2>
-            <p className="text-purple-400 font-medium mb-3 text-sm">{jobTitle}</p>
+            <p className="text-yellow-400 font-medium mb-3 text-sm">{jobTitle}</p>
 
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-xs text-zinc-400">

@@ -93,7 +93,7 @@ export default function Portfolio() {
               </Button>
               <Button
                 variant="outline"
-                className="border-zinc-600 text-zinc-300 hover:text-black hover:border-zinc-400 bg-transparent backdrop-blur-sm"
+                className="border-zinc-600 text-zinc-300 hover:text-yellow hover:border-zinc-400 bg-transparent backdrop-blur-sm"
                 onClick={() => window.open("http://discord.com/users/727497287777124414", "_blank")}
               >
                 Get in touch through Discord
@@ -176,7 +176,7 @@ export default function Portfolio() {
                   alt="akk1to.dev"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-yellow/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
@@ -277,7 +277,7 @@ export default function Portfolio() {
             <WorkCard
               title="KingOra Network"
               description="KingOra Network is a Minecraft Community, where you can find friends to play togther in our Minecraft Server!"
-              tags={["Working as: Head Admin of KingOra Network"]}
+              tags={["Working as: Admin of DreamMC Network"]}
               image="https://upload.cdn.akk1to.is-a.dev/content/kingora.png"
               webUrl="https://kingora.net"
               discordUrl="https://discord.gg/kingora"

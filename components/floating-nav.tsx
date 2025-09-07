@@ -50,7 +50,7 @@ export function FloatingNav() {
         transition={{ duration: 0.3 }}
       >
         <div className="relative px-4 py-3 rounded-full bg-zinc-800/80 backdrop-blur-md border border-zinc-700/50 shadow-lg">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur opacity-50"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-500/20 to-white-500/20 rounded-full blur opacity-50"></div>
 
           {isMobile ? (
             <div className="relative flex items-center justify-between">
@@ -97,7 +97,7 @@ export function FloatingNav() {
       {/* Mobile menu */}
       {isMobile && (
         <motion.div
-          className={`fixed inset-0 z-40 bg-black/90 backdrop-blur-md ${isOpen ? "block" : "hidden"}`}
+          className={`fixed inset-0 z-40 bg-yellow/90 backdrop-blur-md ${isOpen ? "block" : "hidden"}`}
           initial={{ opacity: 0 }}
           animate={{ opacity: isOpen ? 1 : 0 }}
           transition={{ duration: 0.3 }}
@@ -107,13 +107,13 @@ export function FloatingNav() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="px-8 py-4 text-2xl font-medium text-white hover:text-purple-400 transition-colors"
+                className="px-8 py-4 text-2xl font-medium text-white hover:text-yellow-400 transition-colors"
                 onClick={handleNavClick}
               >
                 {item.name}
               </Link>
             ))}
-            <Button className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0">
+            <Button className="mt-6 bg-gradient-to-r from-yellow-500 to-white-500 hover:from-white-500 hover:to-yellow-500 border-0">
               Resume
             </Button>
           </div>

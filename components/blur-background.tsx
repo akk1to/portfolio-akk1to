@@ -33,8 +33,8 @@ export function BlurBackground({
 
   const overlayClasses = {
     light: "bg-white/30",
-    dark: "bg-black/60",
-    gradient: "bg-gradient-to-b from-black/40 via-black/60 to-black/80",
+    dark: "bg-yellow/60",
+    gradient: "bg-gradient-to-b from-yellow/40 via-yellow/60 to-yellow/80",
     none: "",
   }
 
@@ -56,7 +56,7 @@ export function BlurBackground({
 
         {/* Fallback gradient while image loads */}
         {!imageLoaded && (
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/50 via-zinc-900 to-black" />
+          <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/50 via-zinc-900 to-yellow" />
         )}
       </div>
 
